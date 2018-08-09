@@ -14,6 +14,11 @@ pipeline {
 				echo 'Hi, you are in production stage 2'
 			}
 		}
+		state ('test') {
+			steps {
+				echo 'Hello, you are testing stage 3'
+			}
+		}
 		
 	} 
 }
