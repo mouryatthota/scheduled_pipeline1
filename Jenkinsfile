@@ -11,7 +11,7 @@ pipeline {
 		}	
 		stage ('prod') {
 			steps {
-				echo "Hi, you are in production stage 2
+				echo 'Hi, you are in production stage 2'
 			}
 		}
 		
