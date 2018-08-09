@@ -6,17 +6,17 @@ pipeline {
 	stages {
 		stage ('build') {
 			steps {
-				echo 'Hi there, you are in stage 1 build!!' 
+				echo 'Hi there, you are in stage 1 - build!!' 
 			}
 		}	
 		stage ('prod') {
 			steps {
-				echo 'Hi, you are in production stage 2'
+				echo 'Hi, you are in stage 2 - prod'
 			}
 		}
 		stage ('test') {
 			steps {
-				echo 'Hello, you are testing stage 3'
+				echo 'Hello, you are in stage 3 - test'
 			}
 		}
 		
