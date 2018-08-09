@@ -18,9 +18,3 @@ pipeline {
 	} 
 }
 
-## agent {node {label 'labelname'}}
-## triggers {
-	when {branch 'master'}
-	cron ('00 20 * * 6-7')
-}
-
